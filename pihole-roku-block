@@ -1,4 +1,3 @@
-
 # Roku Advertising, Tracking, Telemetry and Logging Blocklist
 # Custom Pi-hole list
 
@@ -61,98 +60,86 @@
 0.0.0.0 themes-service.sr.roku.com
 0.0.0.0 liberty.sb.roku.com
 0.0.0.0 keysvc.cs.roku.com
-0.0.0.0 hints.voice.roku.com	
+0.0.0.0 hints.voice.roku.com
 0.0.0.0 ls.cti.roku.com
 0.0.0.0 giga.cores.roku.com
 0.0.0.0 api.rpay.roku.com
 0.0.0.0 api2.sr.roku.com
 0.0.0.0 api.roku.com
-0.0.0.0 hints.voice.roku.com
 0.0.0.0 api-g2.rokutime.com
-
-	
-	
-	
-
-
-
-
-
-
 
 # others tv lists below
 
-
-device-messaging-na.amazon.com
-devicemessaging.us-east-1.amazon.com
-fls-eu.amazon.com
-fls-na.amazon.com
-mads-eu.amazon.com
-mas-sdk.amazon.com
+0.0.0.0 device-messaging-na.amazon.com
+0.0.0.0 devicemessaging.us-east-1.amazon.com
+0.0.0.0 fls-eu.amazon.com
+0.0.0.0 fls-na.amazon.com
+0.0.0.0 mads-eu.amazon.com
+0.0.0.0 mas-sdk.amazon.com
 
 # required for apps to be installed
-#mas-ext.amazon.com
+# 0.0.0.0 mas-ext.amazon.com
 
-aax-eu.amazon-adsystem.com
+0.0.0.0 aax-eu.amazon-adsystem.com
 
-#msh.amazon.co.uk
+# 0.0.0.0 msh.amazon.co.uk
 
 # required for app installation / updates
-# amazonadsi-a.akamaihd.net
+# 0.0.0.0 amazonadsi-a.akamaihd.net
 
-mobileanalytics.us-east-1.amazonaws.com
+0.0.0.0 mobileanalytics.us-east-1.amazonaws.com
 
 # alexa
-#cortana-gateway.amazon.com
-#api.amazonalexa.com
-#avs.eu.amazonalexa.com
-d3p8zr0ffa9t17.cloudfront.net
+# 0.0.0.0 cortana-gateway.amazon.com
+# 0.0.0.0 api.amazonalexa.com
+# 0.0.0.0 avs.eu.amazonalexa.com
+0.0.0.0 d3p8zr0ffa9t17.cloudfront.net
 
 # updates
-#softwareupdates.amazon.com
-#d3h5bk8iotgjvw.cloudfront.net
-#d63r8xi1zu867.cloudfront.net
-#d1s31zyz7dcc2d.cloudfront.net
-#d3a510xmpll7o6.cloudfront.net
-#d21m0ezw6fosyw.cloudfront.net
-#d3uf8d0lloeluq.cloudfront.net
-#d2n99fpfeqbnhk.cloudfront.net
+# 0.0.0.0 softwareupdates.amazon.com
+# 0.0.0.0 d3h5bk8iotgjvw.cloudfront.net
+# 0.0.0.0 d63r8xi1zu867.cloudfront.net
+# 0.0.0.0 d1s31zyz7dcc2d.cloudfront.net
+# 0.0.0.0 d3a510xmpll7o6.cloudfront.net
+# 0.0.0.0 d21m0ezw6fosyw.cloudfront.net
+# 0.0.0.0 d3uf8d0lloeluq.cloudfront.net
+# 0.0.0.0 d2n99fpfeqbnhk.cloudfront.net
 
 # ntp / time
-#ftv-smp.ntp-fireos.com
-#2.android.pool.ntp.org
+# 0.0.0.0 ftv-smp.ntp-fireos.com
+# 0.0.0.0 2.android.pool.ntp.org
 
 # API connections (unknown usage)
-#api.amazon.com
-#n4h9utzk4f.execute-api.us-east-1.amazonaws.com
+# 0.0.0.0 api.amazon.com
+# 0.0.0.0 n4h9utzk4f.execute-api.us-east-1.amazonaws.com
 
 # others (unknown usage)
-#ktpx-eu.amazon.com
-#dp-rsm-prod.amazon.com
-#firetvdeviceprofilemanagementservice-na.amazon.com
-#prime.amazon.eu
-#dp-discovery-na-ext.amazon.com
-#frank-comp-na.amazon.com
-#ftvr-na.amazon.com
-#dcape-na.amazon.com
-#dp-gw-na.amazon.com
-#unagi-eu.amazon.com
-#layla.amazon.com
-#todo-ta-g7g.amazon.com
-#spectrum.s3.amazonaws.com
-#arcus-uswest.amazon.com
-#pinpoint.us-east-1.amazonaws.com
-#aviary.amazon.de
-#digprjsurvey.amazon.eu
+# 0.0.0.0 ktpx-eu.amazon.com
+# 0.0.0.0 dp-rsm-prod.amazon.com
+# 0.0.0.0 firetvdeviceprofilemanagementservice-na.amazon.com
+# 0.0.0.0 prime.amazon.eu
+# 0.0.0.0 dp-discovery-na-ext.amazon.com
+# 0.0.0.0 frank-comp-na.amazon.com
+# 0.0.0.0 ftvr-na.amazon.com
+# 0.0.0.0 dcape-na.amazon.com
+# 0.0.0.0 dp-gw-na.amazon.com
+# 0.0.0.0 unagi-eu.amazon.com
+# 0.0.0.0 layla.amazon.com
+# 0.0.0.0 todo-ta-g7g.amazon.com
+# 0.0.0.0 spectrum.s3.amazonaws.com
+# 0.0.0.0 arcus-uswest.amazon.com
+# 0.0.0.0 pinpoint.us-east-1.amazonaws.com
+# 0.0.0.0 aviary.amazon.de
+# 0.0.0.0 digprjsurvey.amazon.eu
 
 # third party
-config.ioam.de
-de.ioam.de
-secure-eu.imrworldwide.com
-logs1409.xiti.com
-tracksrv.zdf.de
-settings.crashlytics.com
-notify.firetv.bugsnag.appstore.a2z.com
+0.0.0.0 config.ioam.de
+0.0.0.0 de.ioam.de
+0.0.0.0 secure-eu.imrworldwide.com
+0.0.0.0 logs1409.xiti.com
+0.0.0.0 tracksrv.zdf.de
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 notify.firetv.bugsnag.appstore.a2z.com
 
 # Title: Smart-TV Blocklist for Pi-hole
 # Version: 13July2023v1
@@ -162,626 +149,613 @@ notify.firetv.bugsnag.appstore.a2z.com
 # Make sure to also use the extra RegEx list at https://perflyst.github.io/PiHoleBlocklist/regex.list, which helps remove regional LG ad domains among other things.
 
 # Panasonic Viera & panny tv
-0077777700140002.myhomescreen.tv
-cert-test.sandbox.google.com
+0.0.0.0 0077777700140002.myhomescreen.tv
+0.0.0.0 cert-test.sandbox.google.com
 
-collect.myhomescreen.tv
-usage.myhomescreen.tv
+0.0.0.0 collect.myhomescreen.tv
+0.0.0.0 usage.myhomescreen.tv
 
-collect-us-fy2014.myhomescreen.tv
-collect-us-fy2015.myhomescreen.tv
-collect-us-fy2016.myhomescreen.tv
-collect-us-fy2017.myhomescreen.tv
-collect-us-fy2018.myhomescreen.tv
-collect-us-fy2019.myhomescreen.tv
-collect-us-fy2020.myhomescreen.tv
-collect-us-fy2021.myhomescreen.tv
-collect-us-fy2022.myhomescreen.tv
+0.0.0.0 collect-us-fy2014.myhomescreen.tv
+0.0.0.0 collect-us-fy2015.myhomescreen.tv
+0.0.0.0 collect-us-fy2016.myhomescreen.tv
+0.0.0.0 collect-us-fy2017.myhomescreen.tv
+0.0.0.0 collect-us-fy2018.myhomescreen.tv
+0.0.0.0 collect-us-fy2019.myhomescreen.tv
+0.0.0.0 collect-us-fy2020.myhomescreen.tv
+0.0.0.0 collect-us-fy2021.myhomescreen.tv
+0.0.0.0 collect-us-fy2022.myhomescreen.tv
 
-collect-eu-fy2014.myhomescreen.tv
-collect-eu-fy2015.myhomescreen.tv
-collect-eu-fy2017.myhomescreen.tv
-collect-eu-fy2016.myhomescreen.tv
-collect-eu-fy2018.myhomescreen.tv
-collect-eu-fy2019.myhomescreen.tv
-collect-eu-fy2020.myhomescreen.tv
-collect-eu-fy2021.myhomescreen.tv
-collect-eu-fy2022.myhomescreen.tv
+0.0.0.0 collect-eu-fy2014.myhomescreen.tv
+0.0.0.0 collect-eu-fy2015.myhomescreen.tv
+0.0.0.0 collect-eu-fy2017.myhomescreen.tv
+0.0.0.0 collect-eu-fy2016.myhomescreen.tv
+0.0.0.0 collect-eu-fy2018.myhomescreen.tv
+0.0.0.0 collect-eu-fy2019.myhomescreen.tv
+0.0.0.0 collect-eu-fy2020.myhomescreen.tv
+0.0.0.0 collect-eu-fy2021.myhomescreen.tv
+0.0.0.0 collect-eu-fy2022.myhomescreen.tv
 
-usage-eu-fy2014.myhomescreen.tv
-usage-eu-fy2015.myhomescreen.tv
-usage-eu-fy2016.myhomescreen.tv
-usage-eu-fy2017.myhomescreen.tv
-usage-eu-fy2018.myhomescreen.tv
-usage-eu-fy2019.myhomescreen.tv
-usage-eu-fy2020.myhomescreen.tv
-usage-eu-fy2021.myhomescreen.tv
-usage-eu-fy2022.myhomescreen.tv
+0.0.0.0 usage-eu-fy2014.myhomescreen.tv
+0.0.0.0 usage-eu-fy2015.myhomescreen.tv
+0.0.0.0 usage-eu-fy2016.myhomescreen.tv
+0.0.0.0 usage-eu-fy2017.myhomescreen.tv
+0.0.0.0 usage-eu-fy2018.myhomescreen.tv
+0.0.0.0 usage-eu-fy2019.myhomescreen.tv
+0.0.0.0 usage-eu-fy2020.myhomescreen.tv
+0.0.0.0 usage-eu-fy2021.myhomescreen.tv
+0.0.0.0 usage-eu-fy2022.myhomescreen.tv
 
-usage-us-fy2014.myhomescreen.tv
-usage-us-fy2015.myhomescreen.tv
-usage-us-fy2016.myhomescreen.tv
-usage-us-fy2017.myhomescreen.tv
-usage-us-fy2018.myhomescreen.tv
-usage-us-fy2019.myhomescreen.tv
-usage-us-fy2020.myhomescreen.tv
-usage-us-fy2021.myhomescreen.tv
-usage-us-fy2022.myhomescreen.tv
+0.0.0.0 usage-us-fy2014.myhomescreen.tv
+0.0.0.0 usage-us-fy2015.myhomescreen.tv
+0.0.0.0 usage-us-fy2016.myhomescreen.tv
+0.0.0.0 usage-us-fy2017.myhomescreen.tv
+0.0.0.0 usage-us-fy2018.myhomescreen.tv
+0.0.0.0 usage-us-fy2019.myhomescreen.tv
+0.0.0.0 usage-us-fy2020.myhomescreen.tv
+0.0.0.0 usage-us-fy2021.myhomescreen.tv
+0.0.0.0 usage-us-fy2022.myhomescreen.tv
 
-#mhc-ajax-eu.myhomescreen.tv # internet connection test
-#mhc-ajax-eu-s2.myhomescreen.tv # internet connection test
-#mhc-ajax-us.myhomescreen.tv # internet connection test
-#mhc-eu.myhomescreen.tv # required for internet connectivity
-mhc-sec-eu.myhomescreen.tv
-#mhc-us.myhomescreen.tv # required for internet connectivity
-mhc-sec-us.myhomescreen.tv
-#mhc-xpana-eu.myhomescreen.tv # required to start apps
-#mhc-xpana-eu-s2.myhomescreen.tv # required to start apps
-#mhc-xpana-us.myhomescreen.tv # required to start apps
-#vcs.vdspf.com  //  if blocked, notified of new firmware but unable to download/install
-x2.vindicosuite.com
-
+# 0.0.0.0 mhc-ajax-eu.myhomescreen.tv  # internet connection test
+# 0.0.0.0 mhc-ajax-eu-s2.myhomescreen.tv  # internet connection test
+# 0.0.0.0 mhc-ajax-us.myhomescreen.tv  # internet connection test
+# 0.0.0.0 mhc-eu.myhomescreen.tv  # required for internet connectivity
+0.0.0.0 mhc-sec-eu.myhomescreen.tv
+# 0.0.0.0 mhc-us.myhomescreen.tv  # required for internet connectivity
+0.0.0.0 mhc-sec-us.myhomescreen.tv
+# 0.0.0.0 mhc-xpana-eu.myhomescreen.tv  # required to start apps
+# 0.0.0.0 mhc-xpana-eu-s2.myhomescreen.tv  # required to start apps
+# 0.0.0.0 mhc-xpana-us.myhomescreen.tv  # required to start apps
+# 0.0.0.0 vcs.vdspf.com  # //  if blocked, notified of new firmware but unable to download/install
+0.0.0.0 x2.vindicosuite.com
 
 # Sony Bravia
 # needed for applications
 # needed for applications, if blocked error "no internet connection"
-#applicast.ga.sony.net
-#portal.store.sonyentertainmentnetwork.com
-ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv
-ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv
-#reg.biv.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
-#service.biv.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
-#ssm1.internet.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
-#ssm2.internet.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
-#ssm3.internet.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
-#update.biv.sony.tv # required for updates
-api-mf1.meta.ndmdhs.com
-b02.black.ndmdhs.com
-bravia.dl.playstation.net
-call.me.sel.sony.com
-flingo.tv
-sonybivstatic-a.akamaihd.net
-facemap.foldlife.net
-bdcore-apr-lb.bda.ndmdhs.com
-tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
-api.cid.samba.tv
-#platform.cid.samba.tv #See Toshiba
-preferences.cid.samba.tv
-bravia-cfgdst-ore-pro.bda.ndmdhs.com
+# 0.0.0.0 applicast.ga.sony.net
+# 0.0.0.0 portal.store.sonyentertainmentnetwork.com
+0.0.0.0 ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv
+0.0.0.0 ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv
+# 0.0.0.0 reg.biv.sony.tv  # https://github.com/notracking/hosts-blocklists/issues/384
+# 0.0.0.0 service.biv.sony.tv  # https://github.com/notracking/hosts-blocklists/issues/384
+# 0.0.0.0 ssm1.internet.sony.tv  # https://github.com/notracking/hosts-blocklists/issues/384
+# 0.0.0.0 ssm2.internet.sony.tv  # https://github.com/notracking/hosts-blocklists/issues/384
+# 0.0.0.0 ssm3.internet.sony.tv  # https://github.com/notracking/hosts-blocklists/issues/384
+# 0.0.0.0 update.biv.sony.tv  # required for updates
+0.0.0.0 api-mf1.meta.ndmdhs.com
+0.0.0.0 b02.black.ndmdhs.com
+0.0.0.0 bravia.dl.playstation.net
+0.0.0.0 call.me.sel.sony.com
+0.0.0.0 flingo.tv
+0.0.0.0 sonybivstatic-a.akamaihd.net
+0.0.0.0 facemap.foldlife.net
+0.0.0.0 bdcore-apr-lb.bda.ndmdhs.com
+0.0.0.0 tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
+0.0.0.0 api.cid.samba.tv
+# 0.0.0.0 platform.cid.samba.tv  # See Toshiba
+0.0.0.0 preferences.cid.samba.tv
+0.0.0.0 bravia-cfgdst-ore-pro.bda.ndmdhs.com
 
 # LG
-ad.lgappstv.com
-ibis.lgappstv.com
-jp.rdx2.lgtvsdp.com
-jp.lgtvsdp.com
-jp.info.lgsmartad.com
-lgad.cjpowercast.com.edgesuite.net
-#ngfts.lge.com # blocks thumbnails from loading in the LG Content Store
-smartclip.com
-smartclip.net
-smartshare.lgtvsdp.com
-us.ad.lgsmartad.com
-us.ibs.lgappstv.com
-us.info.lgsmartad.com
-#us.lgtvsdp.com # #117
-us.rdx2.lgtvsdp.com
-yumenetworks.com
-aic-ngfts.lge.com
-us.cdpbeacon.lgtvcommon.com
-us.cdpsvc.lgtvcommon.com
-us.homeprv.lgtvcommon.com
-us.nudge.lgtvcommon.com
-us.rdl.lgtvcommon.com
-us.recommend.lgtvcommon.com
-us.lgsmartad.com
-us.service.lgtvcommon.com
+0.0.0.0 ad.lgappstv.com
+0.0.0.0 ibis.lgappstv.com
+0.0.0.0 jp.rdx2.lgtvsdp.com
+0.0.0.0 jp.lgtvsdp.com
+0.0.0.0 jp.info.lgsmartad.com
+0.0.0.0 lgad.cjpowercast.com.edgesuite.net
+# 0.0.0.0 ngfts.lge.com  # blocks thumbnails from loading in the LG Content Store
+0.0.0.0 smartclip.com
+0.0.0.0 smartclip.net
+0.0.0.0 smartshare.lgtvsdp.com
+0.0.0.0 us.ad.lgsmartad.com
+0.0.0.0 us.ibs.lgappstv.com
+0.0.0.0 us.info.lgsmartad.com
+# 0.0.0.0 us.lgtvsdp.com  # 117
+0.0.0.0 us.rdx2.lgtvsdp.com
+0.0.0.0 yumenetworks.com
+0.0.0.0 aic-ngfts.lge.com
+0.0.0.0 us.cdpbeacon.lgtvcommon.com
+0.0.0.0 us.cdpsvc.lgtvcommon.com
+0.0.0.0 us.homeprv.lgtvcommon.com
+0.0.0.0 us.nudge.lgtvcommon.com
+0.0.0.0 us.rdl.lgtvcommon.com
+0.0.0.0 us.recommend.lgtvcommon.com
+0.0.0.0 us.lgsmartad.com
+0.0.0.0 us.service.lgtvcommon.com
 # Gamers Nexus - LG Smart TV spying
-aic.cdpsvc.lgtvcommon.com
-aic.cdpbeacon.lgtvcommon.com
-us.nextlgsdp.com
-ngfts.nextlgsdp.com
-aic.rdl.lgtvcommon.com
-aic-gfts.nextlgsdp.com
+0.0.0.0 aic.cdpsvc.lgtvcommon.com
+0.0.0.0 aic.cdpbeacon.lgtvcommon.com
+0.0.0.0 us.nextlgsdp.com
+0.0.0.0 ngfts.nextlgsdp.com
+0.0.0.0 aic.rdl.lgtvcommon.com
+0.0.0.0 aic-gfts.nextlgsdp.com
 # Gamers Nexus - LG Smart TV spying - Non-US nextlgsdp.com country codes
-ad.nextlgsdp.com
-ae.nextlgsdp.com
-af.nextlgsdp.com
-ag.nextlgsdp.com
-ai.nextlgsdp.com
-al.nextlgsdp.com
-am.nextlgsdp.com
-ao.nextlgsdp.com
-aq.nextlgsdp.com
-ar.nextlgsdp.com
-as.nextlgsdp.com
-at.nextlgsdp.com
-au.nextlgsdp.com
-aw.nextlgsdp.com
-az.nextlgsdp.com
-ba.nextlgsdp.com
-bb.nextlgsdp.com
-bd.nextlgsdp.com
-be.nextlgsdp.com
-bf.nextlgsdp.com
-bg.nextlgsdp.com
-bh.nextlgsdp.com
-bi.nextlgsdp.com
-bj.nextlgsdp.com
-bm.nextlgsdp.com
-bn.nextlgsdp.com
-bo.nextlgsdp.com
-bq.nextlgsdp.com
-br.nextlgsdp.com
-bs.nextlgsdp.com
-bt.nextlgsdp.com
-bv.nextlgsdp.com
-bw.nextlgsdp.com
-by.nextlgsdp.com
-bz.nextlgsdp.com
-ca.nextlgsdp.com
-cc.nextlgsdp.com
-cd.nextlgsdp.com
-cf.nextlgsdp.com
-cg.nextlgsdp.com
-ch.nextlgsdp.com
-ci.nextlgsdp.com
-ck.nextlgsdp.com
-cl.nextlgsdp.com
-cm.nextlgsdp.com
-cn.nextlgsdp.com
-co.nextlgsdp.com
-cr.nextlgsdp.com
-cu.nextlgsdp.com
-cv.nextlgsdp.com
-cw.nextlgsdp.com
-cx.nextlgsdp.com
-cy.nextlgsdp.com
-cz.nextlgsdp.com
-de.nextlgsdp.com
-dj.nextlgsdp.com
-dk.nextlgsdp.com
-dm.nextlgsdp.com
-do.nextlgsdp.com
-dz.nextlgsdp.com
-ec.nextlgsdp.com
-ee.nextlgsdp.com
-eg.nextlgsdp.com
-eh.nextlgsdp.com
-er.nextlgsdp.com
-es.nextlgsdp.com
-et.nextlgsdp.com
-fi.nextlgsdp.com
-fj.nextlgsdp.com
-fk.nextlgsdp.com
-fm.nextlgsdp.com
-fo.nextlgsdp.com
-fr.nextlgsdp.com
-ga.nextlgsdp.com
-gb.nextlgsdp.com
-gd.nextlgsdp.com
-ge.nextlgsdp.com
-gf.nextlgsdp.com
-gg.nextlgsdp.com
-gh.nextlgsdp.com
-gi.nextlgsdp.com
-gl.nextlgsdp.com
-gm.nextlgsdp.com
-gn.nextlgsdp.com
-gp.nextlgsdp.com
-gq.nextlgsdp.com
-gr.nextlgsdp.com
-gs.nextlgsdp.com
-gt.nextlgsdp.com
-gu.nextlgsdp.com
-gw.nextlgsdp.com
-gy.nextlgsdp.com
-hk.nextlgsdp.com
-hm.nextlgsdp.com
-hn.nextlgsdp.com
-hr.nextlgsdp.com
-ht.nextlgsdp.com
-hu.nextlgsdp.com
-id.nextlgsdp.com
-ie.nextlgsdp.com
-il.nextlgsdp.com
-im.nextlgsdp.com
-in.nextlgsdp.com
-io.nextlgsdp.com
-iq.nextlgsdp.com
-ir.nextlgsdp.com
-is.nextlgsdp.com
-it.nextlgsdp.com
-je.nextlgsdp.com
-jm.nextlgsdp.com
-jo.nextlgsdp.com
-jp.nextlgsdp.com
-ke.nextlgsdp.com
-kg.nextlgsdp.com
-kh.nextlgsdp.com
-ki.nextlgsdp.com
-km.nextlgsdp.com
-kn.nextlgsdp.com
-kp.nextlgsdp.com
-kr.nextlgsdp.com
-kw.nextlgsdp.com
-ky.nextlgsdp.com
-kz.nextlgsdp.com
-la.nextlgsdp.com
-lb.nextlgsdp.com
-lc.nextlgsdp.com
-li.nextlgsdp.com
-lk.nextlgsdp.com
-lr.nextlgsdp.com
-ls.nextlgsdp.com
-lt.nextlgsdp.com
-lu.nextlgsdp.com
-lv.nextlgsdp.com
-ly.nextlgsdp.com
-ma.nextlgsdp.com
-mc.nextlgsdp.com
-md.nextlgsdp.com
-me.nextlgsdp.com
-mf.nextlgsdp.com
-mg.nextlgsdp.com
-mh.nextlgsdp.com
-mk.nextlgsdp.com
-ml.nextlgsdp.com
-mm.nextlgsdp.com
-mn.nextlgsdp.com
-mo.nextlgsdp.com
-mp.nextlgsdp.com
-mq.nextlgsdp.com
-mr.nextlgsdp.com
-ms.nextlgsdp.com
-mt.nextlgsdp.com
-mu.nextlgsdp.com
-mv.nextlgsdp.com
-mw.nextlgsdp.com
-mx.nextlgsdp.com
-my.nextlgsdp.com
-mz.nextlgsdp.com
-na.nextlgsdp.com
-nc.nextlgsdp.com
-ne.nextlgsdp.com
-nf.nextlgsdp.com
-ng.nextlgsdp.com
-ni.nextlgsdp.com
-nl.nextlgsdp.com
-no.nextlgsdp.com
-np.nextlgsdp.com
-nr.nextlgsdp.com
-nu.nextlgsdp.com
-nz.nextlgsdp.com
-om.nextlgsdp.com
-pa.nextlgsdp.com
-pe.nextlgsdp.com
-pf.nextlgsdp.com
-pg.nextlgsdp.com
-ph.nextlgsdp.com
-pk.nextlgsdp.com
-pl.nextlgsdp.com
-pm.nextlgsdp.com
-pn.nextlgsdp.com
-pr.nextlgsdp.com
-ps.nextlgsdp.com
-pt.nextlgsdp.com
-pw.nextlgsdp.com
-py.nextlgsdp.com
-qa.nextlgsdp.com
-re.nextlgsdp.com
-ro.nextlgsdp.com
-rs.nextlgsdp.com
-ru.nextlgsdp.com
-rw.nextlgsdp.com
-sa.nextlgsdp.com
-sb.nextlgsdp.com
-sc.nextlgsdp.com
-sd.nextlgsdp.com
-se.nextlgsdp.com
-sg.nextlgsdp.com
-sh.nextlgsdp.com
-si.nextlgsdp.com
-sj.nextlgsdp.com
-sk.nextlgsdp.com
-sl.nextlgsdp.com
-sm.nextlgsdp.com
-sn.nextlgsdp.com
-so.nextlgsdp.com
-sr.nextlgsdp.com
-ss.nextlgsdp.com
-st.nextlgsdp.com
-sv.nextlgsdp.com
-sx.nextlgsdp.com
-sy.nextlgsdp.com
-sz.nextlgsdp.com
-tc.nextlgsdp.com
-td.nextlgsdp.com
-tf.nextlgsdp.com
-tg.nextlgsdp.com
-th.nextlgsdp.com
-tj.nextlgsdp.com
-tk.nextlgsdp.com
-tm.nextlgsdp.com
-tn.nextlgsdp.com
-to.nextlgsdp.com
-tr.nextlgsdp.com
-tt.nextlgsdp.com
-tv.nextlgsdp.com
-tw.nextlgsdp.com
-tz.nextlgsdp.com
-ua.nextlgsdp.com
-ug.nextlgsdp.com
-um.nextlgsdp.com
-uy.nextlgsdp.com
-uz.nextlgsdp.com
-va.nextlgsdp.com
-vc.nextlgsdp.com
-ve.nextlgsdp.com
-vg.nextlgsdp.com
-vi.nextlgsdp.com
-vn.nextlgsdp.com
-vu.nextlgsdp.com
-wf.nextlgsdp.com
-ws.nextlgsdp.com
-xk.nextlgsdp.com
-ye.nextlgsdp.com
-yt.nextlgsdp.com
-za.nextlgsdp.com
-zm.nextlgsdp.com
-zw.nextlgsdp.com
-
+0.0.0.0 ad.nextlgsdp.com
+0.0.0.0 ae.nextlgsdp.com
+0.0.0.0 af.nextlgsdp.com
+0.0.0.0 ag.nextlgsdp.com
+0.0.0.0 ai.nextlgsdp.com
+0.0.0.0 al.nextlgsdp.com
+0.0.0.0 am.nextlgsdp.com
+0.0.0.0 ao.nextlgsdp.com
+0.0.0.0 aq.nextlgsdp.com
+0.0.0.0 ar.nextlgsdp.com
+0.0.0.0 as.nextlgsdp.com
+0.0.0.0 at.nextlgsdp.com
+0.0.0.0 au.nextlgsdp.com
+0.0.0.0 aw.nextlgsdp.com
+0.0.0.0 az.nextlgsdp.com
+0.0.0.0 ba.nextlgsdp.com
+0.0.0.0 bb.nextlgsdp.com
+0.0.0.0 bd.nextlgsdp.com
+0.0.0.0 be.nextlgsdp.com
+0.0.0.0 bf.nextlgsdp.com
+0.0.0.0 bg.nextlgsdp.com
+0.0.0.0 bh.nextlgsdp.com
+0.0.0.0 bi.nextlgsdp.com
+0.0.0.0 bj.nextlgsdp.com
+0.0.0.0 bm.nextlgsdp.com
+0.0.0.0 bn.nextlgsdp.com
+0.0.0.0 bo.nextlgsdp.com
+0.0.0.0 bq.nextlgsdp.com
+0.0.0.0 br.nextlgsdp.com
+0.0.0.0 bs.nextlgsdp.com
+0.0.0.0 bt.nextlgsdp.com
+0.0.0.0 bv.nextlgsdp.com
+0.0.0.0 bw.nextlgsdp.com
+0.0.0.0 by.nextlgsdp.com
+0.0.0.0 bz.nextlgsdp.com
+0.0.0.0 ca.nextlgsdp.com
+0.0.0.0 cc.nextlgsdp.com
+0.0.0.0 cd.nextlgsdp.com
+0.0.0.0 cf.nextlgsdp.com
+0.0.0.0 cg.nextlgsdp.com
+0.0.0.0 ch.nextlgsdp.com
+0.0.0.0 ci.nextlgsdp.com
+0.0.0.0 ck.nextlgsdp.com
+0.0.0.0 cl.nextlgsdp.com
+0.0.0.0 cm.nextlgsdp.com
+0.0.0.0 cn.nextlgsdp.com
+0.0.0.0 co.nextlgsdp.com
+0.0.0.0 cr.nextlgsdp.com
+0.0.0.0 cu.nextlgsdp.com
+0.0.0.0 cv.nextlgsdp.com
+0.0.0.0 cw.nextlgsdp.com
+0.0.0.0 cx.nextlgsdp.com
+0.0.0.0 cy.nextlgsdp.com
+0.0.0.0 cz.nextlgsdp.com
+0.0.0.0 de.nextlgsdp.com
+0.0.0.0 dj.nextlgsdp.com
+0.0.0.0 dk.nextlgsdp.com
+0.0.0.0 dm.nextlgsdp.com
+0.0.0.0 do.nextlgsdp.com
+0.0.0.0 dz.nextlgsdp.com
+0.0.0.0 ec.nextlgsdp.com
+0.0.0.0 ee.nextlgsdp.com
+0.0.0.0 eg.nextlgsdp.com
+0.0.0.0 eh.nextlgsdp.com
+0.0.0.0 er.nextlgsdp.com
+0.0.0.0 es.nextlgsdp.com
+0.0.0.0 et.nextlgsdp.com
+0.0.0.0 fi.nextlgsdp.com
+0.0.0.0 fj.nextlgsdp.com
+0.0.0.0 fk.nextlgsdp.com
+0.0.0.0 fm.nextlgsdp.com
+0.0.0.0 fo.nextlgsdp.com
+0.0.0.0 fr.nextlgsdp.com
+0.0.0.0 ga.nextlgsdp.com
+0.0.0.0 gb.nextlgsdp.com
+0.0.0.0 gd.nextlgsdp.com
+0.0.0.0 ge.nextlgsdp.com
+0.0.0.0 gf.nextlgsdp.com
+0.0.0.0 gg.nextlgsdp.com
+0.0.0.0 gh.nextlgsdp.com
+0.0.0.0 gi.nextlgsdp.com
+0.0.0.0 gl.nextlgsdp.com
+0.0.0.0 gm.nextlgsdp.com
+0.0.0.0 gn.nextlgsdp.com
+0.0.0.0 gp.nextlgsdp.com
+0.0.0.0 gq.nextlgsdp.com
+0.0.0.0 gr.nextlgsdp.com
+0.0.0.0 gs.nextlgsdp.com
+0.0.0.0 gt.nextlgsdp.com
+0.0.0.0 gu.nextlgsdp.com
+0.0.0.0 gw.nextlgsdp.com
+0.0.0.0 gy.nextlgsdp.com
+0.0.0.0 hk.nextlgsdp.com
+0.0.0.0 hm.nextlgsdp.com
+0.0.0.0 hn.nextlgsdp.com
+0.0.0.0 hr.nextlgsdp.com
+0.0.0.0 ht.nextlgsdp.com
+0.0.0.0 hu.nextlgsdp.com
+0.0.0.0 id.nextlgsdp.com
+0.0.0.0 ie.nextlgsdp.com
+0.0.0.0 il.nextlgsdp.com
+0.0.0.0 im.nextlgsdp.com
+0.0.0.0 in.nextlgsdp.com
+0.0.0.0 io.nextlgsdp.com
+0.0.0.0 iq.nextlgsdp.com
+0.0.0.0 ir.nextlgsdp.com
+0.0.0.0 is.nextlgsdp.com
+0.0.0.0 it.nextlgsdp.com
+0.0.0.0 je.nextlgsdp.com
+0.0.0.0 jm.nextlgsdp.com
+0.0.0.0 jo.nextlgsdp.com
+0.0.0.0 jp.nextlgsdp.com
+0.0.0.0 ke.nextlgsdp.com
+0.0.0.0 kg.nextlgsdp.com
+0.0.0.0 kh.nextlgsdp.com
+0.0.0.0 ki.nextlgsdp.com
+0.0.0.0 km.nextlgsdp.com
+0.0.0.0 kn.nextlgsdp.com
+0.0.0.0 kp.nextlgsdp.com
+0.0.0.0 kr.nextlgsdp.com
+0.0.0.0 kw.nextlgsdp.com
+0.0.0.0 ky.nextlgsdp.com
+0.0.0.0 kz.nextlgsdp.com
+0.0.0.0 la.nextlgsdp.com
+0.0.0.0 lb.nextlgsdp.com
+0.0.0.0 lc.nextlgsdp.com
+0.0.0.0 li.nextlgsdp.com
+0.0.0.0 lk.nextlgsdp.com
+0.0.0.0 lr.nextlgsdp.com
+0.0.0.0 ls.nextlgsdp.com
+0.0.0.0 lt.nextlgsdp.com
+0.0.0.0 lu.nextlgsdp.com
+0.0.0.0 lv.nextlgsdp.com
+0.0.0.0 ly.nextlgsdp.com
+0.0.0.0 ma.nextlgsdp.com
+0.0.0.0 mc.nextlgsdp.com
+0.0.0.0 md.nextlgsdp.com
+0.0.0.0 me.nextlgsdp.com
+0.0.0.0 mf.nextlgsdp.com
+0.0.0.0 mg.nextlgsdp.com
+0.0.0.0 mh.nextlgsdp.com
+0.0.0.0 mk.nextlgsdp.com
+0.0.0.0 ml.nextlgsdp.com
+0.0.0.0 mm.nextlgsdp.com
+0.0.0.0 mn.nextlgsdp.com
+0.0.0.0 mo.nextlgsdp.com
+0.0.0.0 mp.nextlgsdp.com
+0.0.0.0 mq.nextlgsdp.com
+0.0.0.0 mr.nextlgsdp.com
+0.0.0.0 ms.nextlgsdp.com
+0.0.0.0 mt.nextlgsdp.com
+0.0.0.0 mu.nextlgsdp.com
+0.0.0.0 mv.nextlgsdp.com
+0.0.0.0 mw.nextlgsdp.com
+0.0.0.0 mx.nextlgsdp.com
+0.0.0.0 my.nextlgsdp.com
+0.0.0.0 mz.nextlgsdp.com
+0.0.0.0 na.nextlgsdp.com
+0.0.0.0 nc.nextlgsdp.com
+0.0.0.0 ne.nextlgsdp.com
+0.0.0.0 nf.nextlgsdp.com
+0.0.0.0 ng.nextlgsdp.com
+0.0.0.0 ni.nextlgsdp.com
+0.0.0.0 nl.nextlgsdp.com
+0.0.0.0 no.nextlgsdp.com
+0.0.0.0 np.nextlgsdp.com
+0.0.0.0 nr.nextlgsdp.com
+0.0.0.0 nu.nextlgsdp.com
+0.0.0.0 nz.nextlgsdp.com
+0.0.0.0 om.nextlgsdp.com
+0.0.0.0 pa.nextlgsdp.com
+0.0.0.0 pe.nextlgsdp.com
+0.0.0.0 pf.nextlgsdp.com
+0.0.0.0 pg.nextlgsdp.com
+0.0.0.0 ph.nextlgsdp.com
+0.0.0.0 pk.nextlgsdp.com
+0.0.0.0 pl.nextlgsdp.com
+0.0.0.0 pm.nextlgsdp.com
+0.0.0.0 pn.nextlgsdp.com
+0.0.0.0 pr.nextlgsdp.com
+0.0.0.0 ps.nextlgsdp.com
+0.0.0.0 pt.nextlgsdp.com
+0.0.0.0 pw.nextlgsdp.com
+0.0.0.0 py.nextlgsdp.com
+0.0.0.0 qa.nextlgsdp.com
+0.0.0.0 re.nextlgsdp.com
+0.0.0.0 ro.nextlgsdp.com
+0.0.0.0 rs.nextlgsdp.com
+0.0.0.0 ru.nextlgsdp.com
+0.0.0.0 rw.nextlgsdp.com
+0.0.0.0 sa.nextlgsdp.com
+0.0.0.0 sb.nextlgsdp.com
+0.0.0.0 sc.nextlgsdp.com
+0.0.0.0 sd.nextlgsdp.com
+0.0.0.0 se.nextlgsdp.com
+0.0.0.0 sg.nextlgsdp.com
+0.0.0.0 sh.nextlgsdp.com
+0.0.0.0 si.nextlgsdp.com
+0.0.0.0 sj.nextlgsdp.com
+0.0.0.0 sk.nextlgsdp.com
+0.0.0.0 sl.nextlgsdp.com
+0.0.0.0 sm.nextlgsdp.com
+0.0.0.0 sn.nextlgsdp.com
+0.0.0.0 so.nextlgsdp.com
+0.0.0.0 sr.nextlgsdp.com
+0.0.0.0 ss.nextlgsdp.com
+0.0.0.0 st.nextlgsdp.com
+0.0.0.0 sv.nextlgsdp.com
+0.0.0.0 sx.nextlgsdp.com
+0.0.0.0 sy.nextlgsdp.com
+0.0.0.0 sz.nextlgsdp.com
+0.0.0.0 tc.nextlgsdp.com
+0.0.0.0 td.nextlgsdp.com
+0.0.0.0 tf.nextlgsdp.com
+0.0.0.0 tg.nextlgsdp.com
+0.0.0.0 th.nextlgsdp.com
+0.0.0.0 tj.nextlgsdp.com
+0.0.0.0 tk.nextlgsdp.com
+0.0.0.0 tm.nextlgsdp.com
+0.0.0.0 tn.nextlgsdp.com
+0.0.0.0 to.nextlgsdp.com
+0.0.0.0 tr.nextlgsdp.com
+0.0.0.0 tt.nextlgsdp.com
+0.0.0.0 tv.nextlgsdp.com
+0.0.0.0 tw.nextlgsdp.com
+0.0.0.0 tz.nextlgsdp.com
+0.0.0.0 ua.nextlgsdp.com
+0.0.0.0 ug.nextlgsdp.com
+0.0.0.0 um.nextlgsdp.com
+0.0.0.0 uy.nextlgsdp.com
+0.0.0.0 uz.nextlgsdp.com
+0.0.0.0 va.nextlgsdp.com
+0.0.0.0 vc.nextlgsdp.com
+0.0.0.0 ve.nextlgsdp.com
+0.0.0.0 vg.nextlgsdp.com
+0.0.0.0 vi.nextlgsdp.com
+0.0.0.0 vn.nextlgsdp.com
+0.0.0.0 vu.nextlgsdp.com
+0.0.0.0 wf.nextlgsdp.com
+0.0.0.0 ws.nextlgsdp.com
+0.0.0.0 xk.nextlgsdp.com
+0.0.0.0 ye.nextlgsdp.com
+0.0.0.0 yt.nextlgsdp.com
+0.0.0.0 za.nextlgsdp.com
+0.0.0.0 zm.nextlgsdp.com
+0.0.0.0 zw.nextlgsdp.com
 
 # Philips
-#deviceportal.nettvservices.com # needed for apps
-#epg.corio.com # needed for apps
-legacyportal.nettvservices.com
-nettv.corio.com
-#www.ecdinterface.philips.com # Philips Hue Bridge
-ad.nettvservices.com
+# 0.0.0.0 deviceportal.nettvservices.com  # needed for apps
+# 0.0.0.0 epg.corio.com  # needed for apps
+0.0.0.0 legacyportal.nettvservices.com
+0.0.0.0 nettv.corio.com
+# 0.0.0.0 www.ecdinterface.philips.com  # Philips Hue Bridge
+0.0.0.0 ad.nettvservices.com
 
 # Samsung
-abtauthprd.samsungcloudsolution.com
-#acr0.samsungcloudsolution.com # https://www.reddit.com/r/oisd_blocklist/comments/m6j6fg/oisd_domain_blocklist/h3hulvq
-ad.samsungadhub.com
-ads.samsungads.com
-amauthprd.samsungcloudsolution.com
-api-hub.samsungyosemite.com
-az43064.vo.msecnd.net
-cdn.samsungcloudsolution.net
-#configprd.samsungcloudsolution.net # https://oisd.nl/excludes.php?w=configprd.samsungcloudsolution.net
-connecttv.pelmorex.com # weather app tracking
-Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
-cpu.samsungelectronics.com
-d179kwmlpc4o47.cloudfront.net
-d1jwpcr0q4pcq0.cloudfront.net
-d1oxlq5h9kq8q5.cloudfront.net # app icons in samsung app store
-d2tnx644ijgq6i.cloudfront.net
-d3mjsomixevyw7.cloudfront.net
-d37ju0xanoz6gh.cloudfront.net
-#dev-multiscreen.samsung.com # https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.whitelist.txt
-device-metrics-us.amazon.com
-fkp.samsungcloudsolution.com
-fkp.samsungcloudsolution.net
-game.internetat.tv
-gld.samsungosp.com
-#gpm.samsungqbe.com # Numerous connection problems, e.g. #82
-i-stream.pl
-log-1.samsungacr.com
-log-2.samsungacr.com
-log-3.samsungacr.com
-log-ingestion.samsungacr.com
-log-ingestion-eu.samsungacr.com
-log.internetat.tv
-#multiscreen.samsung.com # https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.whitelist.txt
-musicid.samsungcloudsolution.com
-notice.samsungcloudsolution.com
-noticecdn.samsungcloudsolution.com
-noticefile.samsungcloudsolution.com
-oempprd.samsungcloudsolution.com
-oempprd.samsungcloudsolution.net
-prderrordumphsm.samsungcloudsolution.com
-openapi.samsung.com
-osb-apps-v2.samsungqbe.com
-osb-krsvc.samsungqbe.com
-osb-eusvc.samsungqbe.com
-osb.samsungqbe.com
-pavv.co.kr
-pipeaota.com
-premium-videos.telly.com
-prov.samsungcloudsolution.com
-rd.samsungadhub.com
-www.samsungotn.net
-samsungacr.com
-samsungadhub.com
-samsungcloudsolution.com
-samsungcloudsolution.net
-samsungqbe.com
-#samsungrm.net # https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.whitelist.txt
-sas.samsungcloudsolution.com
-sca.samsung.com
-sso.internetat.tv # account login
-syncplusconfig.s3.amazonaws.com
-targeted-config-test.samsungacr.com
-test.samsungrm.net
-us-api.samsungyosemite.com
-vd.emp.prd.s3.amazonaws.com
-vdterms.samsungcloudsolution.com
-www.samsungrm.net
-samsungelectronics.com
-apu.samsungelectronics.com
-bpu.samsungelectronics.com
-dpu.samsungelectronics.com
-kpu.samsungelectronics.com
-upu.samsungelectronics.com
-zpu.samsungelectronics.com
-xpu.samsungelectronics.com
-ypu.samsungelectronics.com
-vd.contents.prod.eu.s3.amazonaws.com
-data.arqiva.tv
-cloud.arqiva.tv
-ads.aimitv.com
-samsungads.com
-gamespromotion.samsungcloudsolution.com
+0.0.0.0 abtauthprd.samsungcloudsolution.com
+# 0.0.0.0 acr0.samsungcloudsolution.com  # https://www.reddit.com/r/oisd_blocklist/comments/m6j6fg/oisd_domain_blocklist/h3hulvq
+0.0.0.0 ad.samsungadhub.com
+0.0.0.0 ads.samsungads.com
+0.0.0.0 amauthprd.samsungcloudsolution.com
+0.0.0.0 api-hub.samsungyosemite.com
+0.0.0.0 az43064.vo.msecnd.net
+0.0.0.0 cdn.samsungcloudsolution.net
+# 0.0.0.0 configprd.samsungcloudsolution.net  # https://oisd.nl/excludes.php?w=configprd.samsungcloudsolution.net
+0.0.0.0 connecttv.pelmorex.com  # weather app tracking
+0.0.0.0 coordinator-production-28516768.us-east-1.elb.amazonaws.com
+0.0.0.0 cpu.samsungelectronics.com
+0.0.0.0 d179kwmlpc4o47.cloudfront.net
+0.0.0.0 d1jwpcr0q4pcq0.cloudfront.net
+0.0.0.0 d1oxlq5h9kq8q5.cloudfront.net  # app icons in samsung app store
+0.0.0.0 d2tnx644ijgq6i.cloudfront.net
+0.0.0.0 d3mjsomixevyw7.cloudfront.net
+0.0.0.0 d37ju0xanoz6gh.cloudfront.net
+# 0.0.0.0 dev-multiscreen.samsung.com  # https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.whitelist.txt
+0.0.0.0 device-metrics-us.amazon.com
+0.0.0.0 fkp.samsungcloudsolution.com
+0.0.0.0 fkp.samsungcloudsolution.net
+0.0.0.0 game.internetat.tv
+0.0.0.0 gld.samsungosp.com
+# 0.0.0.0 gpm.samsungqbe.com  # Numerous connection problems, e.g. #82
+0.0.0.0 i-stream.pl
+0.0.0.0 log-1.samsungacr.com
+0.0.0.0 log-2.samsungacr.com
+0.0.0.0 log-3.samsungacr.com
+0.0.0.0 log-ingestion.samsungacr.com
+0.0.0.0 log-ingestion-eu.samsungacr.com
+0.0.0.0 log.internetat.tv
+# 0.0.0.0 multiscreen.samsung.com  # https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.whitelist.txt
+0.0.0.0 musicid.samsungcloudsolution.com
+0.0.0.0 notice.samsungcloudsolution.com
+0.0.0.0 noticecdn.samsungcloudsolution.com
+0.0.0.0 noticefile.samsungcloudsolution.com
+0.0.0.0 oempprd.samsungcloudsolution.com
+0.0.0.0 oempprd.samsungcloudsolution.net
+0.0.0.0 prderrordumphsm.samsungcloudsolution.com
+0.0.0.0 openapi.samsung.com
+0.0.0.0 osb-apps-v2.samsungqbe.com
+0.0.0.0 osb-krsvc.samsungqbe.com
+0.0.0.0 osb-eusvc.samsungqbe.com
+0.0.0.0 osb.samsungqbe.com
+0.0.0.0 pavv.co.kr
+0.0.0.0 pipeaota.com
+0.0.0.0 premium-videos.telly.com
+0.0.0.0 prov.samsungcloudsolution.com
+0.0.0.0 rd.samsungadhub.com
+0.0.0.0 www.samsungotn.net
+0.0.0.0 samsungacr.com
+0.0.0.0 samsungadhub.com
+0.0.0.0 samsungcloudsolution.com
+0.0.0.0 samsungcloudsolution.net
+0.0.0.0 samsungqbe.com
+# 0.0.0.0 samsungrm.net  # https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.whitelist.txt
+0.0.0.0 sas.samsungcloudsolution.com
+0.0.0.0 sca.samsung.com
+0.0.0.0 sso.internetat.tv  # account login
+0.0.0.0 syncplusconfig.s3.amazonaws.com
+0.0.0.0 targeted-config-test.samsungacr.com
+0.0.0.0 test.samsungrm.net
+0.0.0.0 us-api.samsungyosemite.com
+0.0.0.0 vd.emp.prd.s3.amazonaws.com
+0.0.0.0 vdterms.samsungcloudsolution.com
+0.0.0.0 www.samsungrm.net
+0.0.0.0 samsungelectronics.com
+0.0.0.0 apu.samsungelectronics.com
+0.0.0.0 bpu.samsungelectronics.com
+0.0.0.0 dpu.samsungelectronics.com
+0.0.0.0 kpu.samsungelectronics.com
+0.0.0.0 upu.samsungelectronics.com
+0.0.0.0 zpu.samsungelectronics.com
+0.0.0.0 xpu.samsungelectronics.com
+0.0.0.0 ypu.samsungelectronics.com
+0.0.0.0 vd.contents.prod.eu.s3.amazonaws.com
+0.0.0.0 data.arqiva.tv
+0.0.0.0 cloud.arqiva.tv
+0.0.0.0 ads.aimitv.com
+0.0.0.0 samsungads.com
+0.0.0.0 gamespromotion.samsungcloudsolution.com
 # https://github.com/Perflyst/PiHoleBlocklist/issues/112
-tvx.adgrx.com
-#auth.samsungosp.com # if blocked, samsung accounts will fail to authenticate
-#cdn.samsungcloudsolution.com # System update check on Samsung UE40F5500
-#infolink.pavv.co.kr # Needed for appstore and login on Samsung UE40F5500
-#lcprd1.samsungcloudsolution.net # ping test, no beaconing
-#otnprd10.samsungcloudsolution.net # required for software update
-#otnprd11.samsungcloudsolution.net # required for software update
-#otnprd8.samsungcloudsolution.net # required for software update
-#otnprd9.samsungcloudsolution.net # required for software update
-#samsungosp.com
-#samsungotn.net # system update check on Samsung UE65RU7455
-#time.samsungcloudsolution.com # if blocked, services like Plex, YouTube and Amazon Video not working anymore on some Samsung TV's
-#www.samsungotn.net # required for software update
-#osb-ussvc.samsungqbe.com # required for TV Plus
-#otn.samsungcloudcdn.com # Prevents updates on UE49KS7000 and QE55Q9FNA; https://github.com/Perflyst/PiHoleBlocklist/issues/60
-#ns11.whois.co.kr # Prevents Series 7 TVs from opening YouTube
+0.0.0.0 tvx.adgrx.com
+# 0.0.0.0 auth.samsungosp.com  # if blocked, samsung accounts will fail to authenticate
+# 0.0.0.0 cdn.samsungcloudsolution.com  # System update check on Samsung UE40F5500
+# 0.0.0.0 infolink.pavv.co.kr  # Needed for appstore and login on Samsung UE40F5500
+# 0.0.0.0 lcprd1.samsungcloudsolution.net  # ping test, no beaconing
+# 0.0.0.0 otnprd10.samsungcloudsolution.net  # required for software update
+# 0.0.0.0 otnprd11.samsungcloudsolution.net  # required for software update
+# 0.0.0.0 otnprd8.samsungcloudsolution.net  # required for software update
+# 0.0.0.0 otnprd9.samsungcloudsolution.net  # required for software update
+# 0.0.0.0 samsungosp.com
+# 0.0.0.0 samsungotn.net  # system update check on Samsung UE65RU7455
+# 0.0.0.0 time.samsungcloudsolution.com  # if blocked, services like Plex, YouTube and Amazon Video not working anymore on some Samsung TV's
+# 0.0.0.0 www.samsungotn.net  # required for software update
+# 0.0.0.0 osb-ussvc.samsungqbe.com  # required for TV Plus
+# 0.0.0.0 otn.samsungcloudcdn.com  # Prevents updates on UE49KS7000 and QE55Q9FNA; https://github.com/Perflyst/PiHoleBlocklist/issues/60
+# 0.0.0.0 ns11.whois.co.kr  # Prevents Series 7 TVs from opening YouTube
 
 # Roku
-scribe.logs.roku.com
-midland.logs.roku.com
-austin.logs.roku.com
-cooper.logs.roku.com
-liberty.logs.roku.com
-display.ravm.tv
-ravm.tv
-mobile.logs.roku.com
 
 # Vizio
 # Required for Vizio smart tv features
-#api.vizio.com
-#images.vizio.com
-#announcements.vizio.com # No reason to block this
+# 0.0.0.0 api.vizio.com
+# 0.0.0.0 images.vizio.com
+# 0.0.0.0 announcements.vizio.com  # No reason to block this
 
 # HBBTV
-cdn.hbbtv.smartclip.net
-hbbtv-1.eurosport.com
-hbbtv-extern-fe01.sim-technik.de
-hbbtv-track.redbutton.de
-hbbtv.kabeleins.de
-#hbbtv.prosieben.de # Blocks ProSieben apps from starting.
-hbbtv.qvc.de
-#hbbtv.redbutton.de # Blocks ZDF & ProSieben apps from starting.
-hbbtv.rtl2.de
-hbbtv.sat1.de
-hbbtv.sixx.de
-#hbbtv.zdf.de # Blocks ZDF apps from starting.
-hbbtv01p.anixe.net
-hbbtvapp.sonnenklar.tv
-scheduler.hbbtv.smartclip.net
-stats.hbbtv.smartclip.net
-hbbtv.superrtl.de
-p-hbbtv.superrtl.de
-hbbtv.3sat.de
-app.hbbtv.hse24.com
+0.0.0.0 cdn.hbbtv.smartclip.net
+0.0.0.0 hbbtv-1.eurosport.com
+0.0.0.0 hbbtv-extern-fe01.sim-technik.de
+0.0.0.0 hbbtv-track.redbutton.de
+0.0.0.0 hbbtv.kabeleins.de
+# 0.0.0.0 hbbtv.prosieben.de  # Blocks ProSieben apps from starting.
+0.0.0.0 hbbtv.qvc.de
+# 0.0.0.0 hbbtv.redbutton.de  # Blocks ZDF & ProSieben apps from starting.
+0.0.0.0 hbbtv.rtl2.de
+0.0.0.0 hbbtv.sat1.de
+0.0.0.0 hbbtv.sixx.de
+# 0.0.0.0 hbbtv.zdf.de  # Blocks ZDF apps from starting.
+0.0.0.0 hbbtv01p.anixe.net
+0.0.0.0 hbbtvapp.sonnenklar.tv
+0.0.0.0 scheduler.hbbtv.smartclip.net
+0.0.0.0 stats.hbbtv.smartclip.net
+0.0.0.0 hbbtv.superrtl.de
+0.0.0.0 p-hbbtv.superrtl.de
+0.0.0.0 hbbtv.3sat.de
+0.0.0.0 app.hbbtv.hse24.com
 
 # Other useless connections from Smart-TV
-2mdn.net
-ad.71i.de
-adv.ettoday.net
-advertising.com
-#api.nfl.com # required for NFL Fantasy Football App
-#apicache.vudu.com # needed for Vudu's app, see issue22
-cdn.smartclip.net
-#cdns-content.dzcdn.net # https://oisd.nl/excludes.php?w=cdns-content.dzcdn.net
-database01p.anixe.net
-de.ioam.de
-#drscdn.500px.org # blocks 500px on desktop
-#geo.opera.com # blocks opera update
-googleads.g.doubleclick.net
-#itv.ard.de # ARD media lib - HBBTV 
-nbc-jite.nbcuni.com
-redbutton-adproxy-lb-prod.redbutton.de
-redbutton-lb-prod.redbutton.de
-redbutton.sim-technik.de
-script.ioam.de
-start.digitaltext.rtl.de
-stats-irl.sxp.smartclip.net
-trvdp.com
-tv-static.scdn.co
-#tv.deezer.com # Breaks Deezer's smart-TV apps.
-xml.opera.com
-api.thetake.com # https://thetake.ai/
-control-zoo-dai-default.tvinteractive.tv
-mcp.tvinteractive.tv
-control2.tvinteractive.tv
-control.tvinteractive.tv
-tvmeta-dynamic.tvinteractive.tv
-alphonso.tv
-tv.ads.spotx.tv
-hse24.tvtelemetrie.de
-hse-ctv.com
+0.0.0.0 2mdn.net
+0.0.0.0 ad.71i.de
+0.0.0.0 adv.ettoday.net
+0.0.0.0 advertising.com
+# 0.0.0.0 api.nfl.com  # required for NFL Fantasy Football App
+# 0.0.0.0 apicache.vudu.com  # needed for Vudu's app, see issue22
+0.0.0.0 cdn.smartclip.net
+# 0.0.0.0 cdns-content.dzcdn.net  # https://oisd.nl/excludes.php?w=cdns-content.dzcdn.net
+0.0.0.0 database01p.anixe.net
+# 0.0.0.0 drscdn.500px.org  # blocks 500px on desktop
+# 0.0.0.0 geo.opera.com  # blocks opera update
+0.0.0.0 googleads.g.doubleclick.net
+# 0.0.0.0 itv.ard.de  # ARD media lib - HBBTV
+0.0.0.0 nbc-jite.nbcuni.com
+0.0.0.0 redbutton-adproxy-lb-prod.redbutton.de
+0.0.0.0 redbutton-lb-prod.redbutton.de
+0.0.0.0 redbutton.sim-technik.de
+0.0.0.0 script.ioam.de
+0.0.0.0 start.digitaltext.rtl.de
+0.0.0.0 stats-irl.sxp.smartclip.net
+0.0.0.0 trvdp.com
+0.0.0.0 tv-static.scdn.co
+# 0.0.0.0 tv.deezer.com  # Breaks Deezer's smart-TV apps.
+0.0.0.0 xml.opera.com
+0.0.0.0 api.thetake.com  # https://thetake.ai/
+0.0.0.0 control-zoo-dai-default.tvinteractive.tv
+0.0.0.0 mcp.tvinteractive.tv
+0.0.0.0 control2.tvinteractive.tv
+0.0.0.0 control.tvinteractive.tv
+0.0.0.0 tvmeta-dynamic.tvinteractive.tv
+0.0.0.0 alphonso.tv
+0.0.0.0 tv.ads.spotx.tv
+0.0.0.0 hse24.tvtelemetrie.de
+0.0.0.0 hse-ctv.com
 
 # Netflix
 # secure, api-global, and appboot break Netflix
-#secure.netflix.com                   
-#api-global.netflix.com
-#appboot.netflix.com
-#nrdp.nccp.netflix.com # Netflix playback fails on Humax DTR-T2100 (YouView) STB
-ichnaea.netflix.com
-customerevents.netflix.com
-#nrdp.prod.ftl.netflix.com  # https://oisd.nl/excludes.php?w=nrdp.prod.ftl.netflix.com
-
+# 0.0.0.0 secure.netflix.com
+# 0.0.0.0 api-global.netflix.com
+# 0.0.0.0 appboot.netflix.com
+# 0.0.0.0 nrdp.nccp.netflix.com  # Netflix playback fails on Humax DTR-T2100 (YouView) STB
+0.0.0.0 ichnaea.netflix.com
+0.0.0.0 customerevents.netflix.com
+# 0.0.0.0 nrdp.prod.ftl.netflix.com  # https://oisd.nl/excludes.php?w=nrdp.prod.ftl.netflix.com
 
 # Spotify
-#api-tv.spotify.com # required for TV and PS4 spotify app
+# 0.0.0.0 api-tv.spotify.com  # required for TV and PS4 spotify app
 
 # Hulu
-api.distribution.hulu.com
+0.0.0.0 api.distribution.hulu.com
 
 # Sharp Smart TV using Opera OS (thanks to sml156)
-# time-a.timefreq.bldrdoc.gov          # probably not a good idea to block this one
-# api.accuweather.com                  # probably not a good idea to block this one
+# 0.0.0.0 time-a.timefreq.bldrdoc.gov  # probably not a good idea to block this one
+# 0.0.0.0 api.accuweather.com  # probably not a good idea to block this one
 
 # Hisense Smart TV
-api-gps-em.hismarttv.com
-auth-em.hismarttv.com
-msg-em.hismarttv.com
-api-launcher-em.hismarttv.com
-auth-launcher-em.hismarttv.com
-api-gps-na.hismarttv.com
-auth-na.hismarttv.com
-msg-na.hismarttv.com
-api-launcher-na.hismarttv.com
-auth-launcher-na.hismarttv.com
-unified-ter-na.hismarttv.com
+0.0.0.0 api-gps-em.hismarttv.com
+0.0.0.0 auth-em.hismarttv.com
+0.0.0.0 msg-em.hismarttv.com
+0.0.0.0 api-launcher-em.hismarttv.com
+0.0.0.0 auth-launcher-em.hismarttv.com
+0.0.0.0 api-gps-na.hismarttv.com
+0.0.0.0 auth-na.hismarttv.com
+0.0.0.0 msg-na.hismarttv.com
+0.0.0.0 api-launcher-na.hismarttv.com
+0.0.0.0 auth-launcher-na.hismarttv.com
+0.0.0.0 unified-ter-na.hismarttv.com
 # These may be needed for software/firmware updates, not sure if it's one or both but the first one tries thousands of times a day to connect.
-api.us.hismarttv.com
-api.euro.hismarttv.com
-api.eu.hismarttv.com
+0.0.0.0 api.us.hismarttv.com
+0.0.0.0 api.euro.hismarttv.com
+0.0.0.0 api.eu.hismarttv.com
 
 # SiliconDust HDHomeRun
-#tuner-api.hdhomerun.com # required for firmware update
-#location-api.hdhomerun.com # required for firmware update
+# 0.0.0.0 tuner-api.hdhomerun.com  # required for firmware update
+# 0.0.0.0 location-api.hdhomerun.com  # required for firmware update
 
 # Foxtel Australia cable/satellite set-top box
-_xmpp-client._tcp.managed.xmpp.foxtel.com.au
-managed.xmpp.foxtel.com.au
-foxtel-prod-events.digitalsmiths.net
-e2.resources.foxtel.com.au
-a1.resources.foxtel.com.au
+# UNSUPPORTED HOSTS ENTRY (preserved): _xmpp-client._tcp.managed.xmpp.foxtel.com.au
+0.0.0.0 managed.xmpp.foxtel.com.au
+0.0.0.0 foxtel-prod-events.digitalsmiths.net
+0.0.0.0 e2.resources.foxtel.com.au
+0.0.0.0 a1.resources.foxtel.com.au
 
 # Yamaha AV receivers
-#avpro.global.yamaha.com # Blocks system updates on RX-V685
+# 0.0.0.0 avpro.global.yamaha.com  # Blocks system updates on RX-V685
 
 # Toshiba
-events.cid.samba.tv
-platform.cid.samba.tv
-#file2fxm.azureedge.net # https://oisd.nl/excludes.php?w=file2fxm.azureedge.net
-7345023508.fxmconnect.com
-7345023508.fxm9485766783.com
+0.0.0.0 events.cid.samba.tv
+0.0.0.0 platform.cid.samba.tv
+# 0.0.0.0 file2fxm.azureedge.net  # https://oisd.nl/excludes.php?w=file2fxm.azureedge.net
+0.0.0.0 7345023508.fxmconnect.com
+0.0.0.0 7345023508.fxm9485766783.com
 
 # Xioami Mi TV
-mitv.tracking.intl.miui.com
-tracking.intl.miui.com
-data.mistat.intl.xiaomi.com
-sdkconfig.ad.intl.xiaomi.com
+0.0.0.0 mitv.tracking.intl.miui.com
+0.0.0.0 tracking.intl.miui.com
+0.0.0.0 data.mistat.intl.xiaomi.com
+0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 
 # Android/Google TV (including Nvidia Shield TV)
-androidtvchannels-pa.googleapis.com
-androidtvlauncherxfe-pa.googleapis.com
-androidtvwatsonfe-pa.googleapis.com
-
+0.0.0.0 androidtvchannels-pa.googleapis.com
+0.0.0.0 androidtvlauncherxfe-pa.googleapis.com
+0.0.0.0 androidtvwatsonfe-pa.googleapis.com
