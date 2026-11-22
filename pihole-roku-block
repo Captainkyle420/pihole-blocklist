@@ -55,6 +55,33 @@
 
 # Other
 0.0.0.0 wwwimg.roku.com
+0.0.0.0 sw-update.cs.roku.com
+0.0.0.0 images.sr.roku.com
+0.0.0.0 navigation.sr.roku.com
+0.0.0.0 themes-service.sr.roku.com
+0.0.0.0 liberty.sb.roku.com
+0.0.0.0 keysvc.cs.roku.com
+0.0.0.0 hints.voice.roku.com	
+0.0.0.0 ls.cti.roku.com
+0.0.0.0 giga.cores.roku.com
+0.0.0.0 api.rpay.roku.com
+0.0.0.0 api2.sr.roku.com
+0.0.0.0 api.roku.com
+0.0.0.0 hints.voice.roku.com
+0.0.0.0 api-g2.rokutime.com
+
+	
+	
+	
+
+
+
+
+
+
+
+# others tv lists below
+
 
 device-messaging-na.amazon.com
 devicemessaging.us-east-1.amazon.com
